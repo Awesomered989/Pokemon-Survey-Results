@@ -14,10 +14,11 @@ def get_rank(r:int):
     else:
 	    return f"{r}th"
 
-ranks=["1st","2nd","3rd","4th","5th","6th","7th","8th","9th","10th"]
 voters=[]
 questions={}
 
+
+#this code organizes each voters data into a json format
 with open('Pokemon Survey.csv', newline='') as csvfile:
     reader = csv.DictReader(csvfile)
     questions=set([n.split(" [")[0] for n in reader.fieldnames])
@@ -28,6 +29,7 @@ with open('Pokemon Survey.csv', newline='') as csvfile:
         user_ranks={}
         for q, options in questions.items():
             user_ranks[q]={}
+            ranks=[get_rank(x+1) for x in range(len(options))]
             for rank in ranks[:int(len(options)/2)]:
                 for option in options:
                     if row[f"{q} [{option}]"]==rank:
@@ -40,10 +42,9 @@ with open('Pokemon Survey.csv', newline='') as csvfile:
     csvfile.close()
 
 
+#this code finds the winner of each catagory
 finalR={}
 for q, options in questions.items():
-    #q="Favourite Type"
-    #options=questions[q]
     winners={}
     vote_options=options
     for asdf in range(len(options)):
@@ -83,6 +84,8 @@ for q, options in questions.items():
     print(winners,len(winners))
     finalR[q]=winners
 
+
+#finally the data is put into json and csv files
 print(finalR)
 #json.dump(finalR,open("pokemon survey results/final results.js","w"),indent=3)
 js=open("pokemon survey results/final results.js","w")
