@@ -1,0 +1,112 @@
+{
+   "Favourite Grass Starter": {
+      "1st": "Bulbasaur",
+      "2nd": "Treecko",
+      "3rd": "Rowlet",
+      "4th": "Turtwig",
+      "5th": "Snivy",
+      "6th": "Grookey",
+      "7th": "Chespin",
+      "8th": "Chikorita"
+   },
+   "Favourite Gen": {
+      "1st": "Gen 5",
+      "2nd": "Gen 2",
+      "3rd": "Gen 3",
+      "4th": "Gen4",
+      "5th": "Gen 7",
+      "6th": "Gen 1",
+      "7th": "Gen 6",
+      "8th": "Gen 8"
+   },
+   "Favourite Type": {
+      "1st": "Dragon",
+      "2nd": "Ghost",
+      "3rd": "Water",
+      "4th": "Dark",
+      "5th": "Fire",
+      "6th": "Electric",
+      "7th": "Ice",
+      "8th": "Fairy",
+      "9th": "Grass",
+      "10th": "Flying",
+      "11th": "Ground",
+      "12th": "Bug",
+      "13th": "Normal",
+      "14th": "Rock",
+      "15th": "Steel",
+      "16th": "Poison",
+      "17th": "Psychic",
+      "18th": "Fighting"
+   },
+   "Favorite Fire Starter": {
+      "1st": "Cyndaquil",
+      "2nd": "Charmander",
+      "3rd": "Torchic",
+      "4th": "Chimchar",
+      "5th": "Fennekin",
+      "6th": "Scorbunny",
+      "7th": "Tepig",
+      "8th": "Litten"
+   },
+   "Favourite Female Trainer": {
+      "1st": "May",
+      "2nd": "Dawn",
+      "3rd": "Serena",
+      "4th": "Leaf",
+      "5th": "Hilda",
+      "6th": "Rosa",
+      "7th": "Lyra",
+      "8th": "Selene",
+      "9th": "Kris",
+      "10th": "Gloria"
+   },
+   "Favourite Professor": {
+      "1st": "Professor Oak",
+      "2nd": "Professor Kukui",
+      "3rd": "Professor Rowan",
+      "4th": "Professor Elm",
+      "5th": "Professor Birch",
+      "6th": "Professor Juniper",
+      "7th": "Professor Sycamore",
+      "8th": "Professor Magnolia"
+   },
+   "Favourite Water Type": {
+      "1st": "Froakie",
+      "2nd": "Totodile",
+      "3rd": "Mudkip",
+      "4th": "Squirtle",
+      "5th": "Piplup",
+      "6th": "Oshawott",
+      "7th": "Popplio",
+      "8th": "Sobble"
+   },
+   "Favourite Rival": {
+      "1st": "Gary",
+      "2nd": "Silver",
+      "3rd": "Gladion",
+      "4th": "Marnie",
+      "5th": "Wally",
+      "6th": "Barry",
+      "7th": "Bianca",
+      "8th": "Bede",
+      "9th": "Hugh",
+      "10th": "Cheren",
+      "11th": "Shauna",
+      "12th": "Tierno",
+      "13th": "Trevor",
+      "14th": "Hau",
+      "15th": "Hop"
+   },
+   "Favourite Male Trainer": {
+      "1st": "Red",
+      "2nd": "Ethan",
+      "3rd": "Brendan",
+      "4th": "Lucas",
+      "5th": "Hilbert",
+      "6th": "Nate",
+      "7th": "Victor",
+      "8th": "Calem",
+      "9th": "Elio"
+   }
+}
