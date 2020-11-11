@@ -1,4 +1,4 @@
-{
+var results = {
    "Favourite Female Trainer": {
       "1st": "Dawn",
       "2nd": "May",
