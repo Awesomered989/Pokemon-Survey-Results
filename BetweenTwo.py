@@ -4,11 +4,12 @@ import os
 from time import sleep as wait
 
 
+
 questions=json.load(open("questions.json"))
 voters=json.load(open("voters.json"))
 
-cat="Favourite Type"
-comp1,comp2="Fire","Electric"
+comp1,comp2=input("Option1:\n>>> ").title(),input("Option2:\n>>> ").title()
+cat=[question for question,ops in questions.items() if comp1 in list(ops.keys())][0]
 compscore1,compscore2=0,0
 for voter in voters:
     try:
