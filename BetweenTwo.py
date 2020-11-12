@@ -39,4 +39,5 @@ print(f'''╔{"╦":═>11}{"╤":═>11}{"╗":═>11}
 █ = {comp1}
 ▒ = {comp2}
 
+Winner: {max({comp1:compscore1,comp2:compscore2}, key={comp1:compscore1,comp2:compscore2}.get)}
 {"█"*int((compscore1/total)*34):▒<34}''')
